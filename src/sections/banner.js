@@ -1,7 +1,10 @@
+/** @jsx jsx */
 import React from 'react';
-import { Box, Container, Image, Heading } from 'theme-ui';
+import { jsx, Flex, Box, Container, Image, Heading } from 'theme-ui';
+import { Link } from 'components/link';
 import { keyframes } from '@emotion/core';
 import logoImage from 'assets/banner-logo.png';
+import scuolaLogo from 'assets/scuola_banner.png';
 import bannerImage from 'assets/banner-mockup.png';
 import bannerIcon1 from 'assets/banner-icon-1-1.svg';
 import bannerIcon2 from 'assets/banner-icon-1-2.svg';
@@ -58,8 +61,19 @@ const Banner = () => {
           src={bannerIcon7}
         />
 
-        <Image sx={styles.logo} src={logoImage} alt="logo image" />
-        <Heading as="h2">Create beautiful landing page in few minutes</Heading>
+        <Image 
+        sx={styles.logo}
+        src={scuolaLogo} 
+        alt="logo image"
+         />
+        <Heading as="h2">Track the Progress and Issues of your Teachers and Students</Heading>
+        <Link
+            path="/"
+            ml={2}
+            label="Sign Up"
+            sx={styles.headerBtn}
+            variant="buttons.primary"
+          />
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>
@@ -128,6 +142,22 @@ const bannerAnim3 = keyframes`
 `;
 
 const styles = {
+    headerBtn: {
+        backgroundColor: 'black',
+        fontSize: '16px',
+        fontWeight: 'bold',
+        letterSpacing: '-0.16px',
+        textDecoration: 'none',
+        borderRadius: '5px',
+        color: '#ffffff',
+        padding: '6.5px 24px',
+        display: ['none', null, null, null, 'inline-block'],
+        ml: ['0', null, null, 'auto', '0'],
+        mr: ['0', null, null, '20px', '0'],
+        '&:hover': {
+          color: '#fff',
+        },
+      },
   banner: {
     overflow: 'hidden',
     backgroundColor: '#F9FBFD',

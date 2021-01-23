@@ -13,43 +13,43 @@ const SERVICES_DATA = [
   {
     image: serviceImage1,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: '3D modeling & art',
+      'Get in depth progress and analysis of each member of in school.',
+    heading: 'Detailed Statistics',
     path: '#',
   },
   {
     image: serviceImage2,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Digital promotion',
-    path: '#',
-  },
-  {
-    image: serviceImage3,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Business Enterprise',
-    path: '#',
-  },
-  {
-    image: serviceImage4,
-    text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Marketing & advertising',
+      'Get list of all reports and feedback from students and tutors.',
+    heading: 'Reports and Feedback',
     path: '#',
   },
   {
     image: serviceImage5,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Ultimate development',
+      'Get real time updates from students and tutors about an issue or request.',
+    heading: 'Updates',
     path: '#',
   },
+//   {
+//     image: serviceImage4,
+//     text:
+//       'Get your info tests delivered at home collect a sample from the your progress tests.',
+//     heading: 'Marketing & advertising',
+//     path: '#',
+//   },
+//   {
+//     image: serviceImage5,
+//     text:
+//       'Get your info tests delivered at home collect a sample from the your progress tests.',
+//     heading: 'Ultimate development',
+//     path: '#',
+//   },
   {
     image: serviceImage6,
     text:
-      'Get your info tests delivered at home collect a sample from the your progress tests.',
-    heading: 'Online support',
+      'Contact Admin with any problem.',
+    heading: 'Admin support',
     path: '#',
   },
 ];
@@ -58,8 +58,7 @@ const Services = () => {
     <Box as="section" id="services" sx={styles.services}>
       <Container>
         <BlockTitle
-          title="What the features of product"
-          text="Features are highlighted here"
+          title="What you can do on the Scuola Platform"
         />
         <Grid sx={styles.grid}>
           {SERVICES_DATA.map(({ image, text, heading, path }, index) => (

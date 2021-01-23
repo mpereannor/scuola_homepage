@@ -8,15 +8,23 @@ export default [
     label: 'Services',
   },
   {
-    path: 'pricing',
-    label: 'Pricing',
-  },
-  {
-    path: 'testimonials',
-    label: 'Testimonials',
+    path: 'https://scuola.netlify.app',
+    label: 'Dashboard',
   },
   {
     path: 'news',
     label: 'News',
+  },
+  {
+    path: 'events',
+    label: 'Events',
+  },
+  {
+    path: 'calendar',
+    label: 'Calendar',
+  },
+  {
+    path: 'help',
+    label: 'Help',
   },
 ];

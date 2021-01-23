@@ -3,6 +3,8 @@ import { Box, Text, Container } from 'theme-ui';
 import { Link } from 'components/link';
 import Logo from 'components/logo';
 import logoLight from 'assets/logo-light.svg';
+import scuolaLogo from 'assets/scuola_official.svg';
+
 export default function Footer() {
   return (
     <Box as="footer" sx={styles.footer}>
@@ -14,7 +16,7 @@ export default function Footer() {
             flexDirection: ['column', null, null, null, null, 'row'],
           }}
         >
-          <Logo image={logoLight} />
+          <Logo image={scuolaLogo} />
           <Text
             as="p"
             sx={{
@@ -24,14 +26,14 @@ export default function Footer() {
               mt: ['10px', null, null, null, null, '0'],
             }}
           >
-            Copyright by {new Date().getFullYear()} RedQ, Inc
+            Copyright by {new Date().getFullYear()} Scuola, LLC
           </Text>
         </Box>
         <Box sx={styles.linksWrap}>
           <Link path="/">Home</Link>
-          <Link path="/">Advertise</Link>
-          <Link path="/">Supports</Link>
-          <Link path="/">Marketing</Link>
+          {/* <Link path="/">Advertise</Link> */}
+          <Link path="/">Partners</Link>
+          <Link path="/">Blog</Link>
           <Link path="/">FAQ</Link>
         </Box>
       </Container>

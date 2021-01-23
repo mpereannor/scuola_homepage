@@ -6,17 +6,18 @@ import Logo from 'components/logo';
 import { DrawerProvider } from 'contexts/drawer/drawer.provider';
 import MobileDrawer from './mobileDrawer';
 import menuItems from './header.data';
-import logoDark from 'assets/logo-dark.svg';
+import scuolaLogo from 'assets/scuola_official.svg';
 
 export default function Header({ className }) {
   return (
     <DrawerProvider>
       <header sx={styles.header} className={className}>
         <Container sx={styles.container}>
-          <Logo image={logoDark} />
+          <Logo image={scuolaLogo} />
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
+                
               <ScrollLink
                 activeClass="active"
                 sx={styles.nav.navLink}
@@ -32,14 +33,19 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
-          <Link
-            path="/"
-            ml={2}
-            label="Purchase Now"
-            sx={styles.headerBtn}
+          <div
+          >
+            <a 
+              sx={styles.headerBtn} 
+              ml={2}
             variant="buttons.primary"
-          />
-
+            href="https://scuola.netlify.app/register" 
+            target="blank" 
+            rel="noopener noreferrer"            
+            >
+            Sign Up
+            </a>
+          </div>
           <MobileDrawer />
         </Container>
       </header>

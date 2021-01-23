@@ -12,6 +12,8 @@ import Testimonials from 'sections/testimonials';
 import Blogs from 'sections/blogs';
 import FAQ from 'sections/faq';
 import Subscribe from 'sections/subscribe';
+import TeamSection from 'sections/team-section';
+import WorkFlow from 'sections/workflow';
 
 import 'swiper/swiper-bundle.min.css';
 import 'rc-drawer/assets/index.css';
@@ -21,17 +23,19 @@ export default function IndexPage() {
   return (
     <StickyProvider>
       <Layout>
-        <SEO title="Startup Landing 014" />
+        <SEO title="Scuola" />
         <Banner />
         <Services />
-        <Jackpot />
-        <CallToAction />
+        {/* <Jackpot /> */}
+        {/* <CallToAction /> */}
         <Featured />
-        <Pricing />
-        <Testimonials />
+        {/* <Pricing /> */}
+        {/* <Testimonials /> */}
         <Blogs />
+        <WorkFlow/>
+        <TeamSection/>
         <FAQ />
-        <Subscribe />
+        {/* <Subscribe /> */}
       </Layout>
     </StickyProvider>
   );
