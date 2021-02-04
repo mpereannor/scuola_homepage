@@ -5,7 +5,8 @@ import { Link } from 'components/link';
 import { keyframes } from '@emotion/core';
 import logoImage from 'assets/banner-logo.png';
 import scuolaLogo from 'assets/scuola_banner.png';
-import bannerImage from 'assets/banner-mockup.png';
+// import bannerImage from 'assets/banner-mockup.png';
+import bannerImage from 'assets/bannermain.jpg';
 import bannerIcon1 from 'assets/banner-icon-1-1.svg';
 import bannerIcon2 from 'assets/banner-icon-1-2.svg';
 import bannerIcon3 from 'assets/banner-icon-1-3.svg';
@@ -74,6 +75,8 @@ const Banner = () => {
             sx={styles.headerBtn}
             variant="buttons.primary"
           />
+          <br/>
+          <br/>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>

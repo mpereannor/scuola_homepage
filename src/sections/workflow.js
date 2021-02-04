@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Create a board',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'you have the option of naming and describing the board, as well as choosing board type; public or private.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Create a sub group in your board',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'The group name should relate to similar issues or tasks.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Fill group with entries of issues of tasks',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'An issue or task can be categorized by date, deadline, severity, etc.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Contact the appropriate colleague / admin in case of unresolved issue',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'The right person should be informed directly about an unresolved issue.',
   },
 ];
 
@@ -39,7 +39,6 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
           title="Let’s see how it works"
           isWhite={true}
         />

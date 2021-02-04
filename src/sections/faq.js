@@ -7,29 +7,19 @@ import Accordion from 'components/accordion/accordion';
 const accordionData = [
   {
     isExpanded: false,
-    title: 'How much does it cost to be a credit card merchant?',
+    title: 'How much does it cost to signup for the platform be a credit card merchant?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Using the school's platform is free for teachers and students. However there's a small charge for an alum.
       </div>
     ),
   },
   {
     isExpanded: true,
-    title: 'How can I open a merchant account?',
+    title: 'How can I see my results after exam?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Kindly visit the 'Updates' section on your personal dashboard
       </div>
     ),
   },
@@ -38,43 +28,20 @@ const accordionData = [
     title: 'How long does the application take?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        For our current semester, about a two days.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: 'Can I make payment outside of Hong Kong?',
+    title: 'Can I make payment outside of our desinated banks?',
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Yes, However notify the Accounts department right after paying
       </div>
     ),
   },
-  {
-    isExpanded: false,
-    title: 'How do I get the payment complete?',
-    contents: (
-      <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
-      </div>
-    ),
-  },
+ 
 ];
 
 const FAQ = () => {

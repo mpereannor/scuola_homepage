@@ -12,41 +12,41 @@ import blogImage4 from 'assets/blog-1-4.png';
 const BLOG_DATA = [
   {
     image: blogImage1,
-    title: 'How to work with prototype design with adobe xd featuring tools',
+    title: 'How to succeed this semester',
     description:
-      'The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design',
-    path: '/',
+      'The 2020 best student award went to Claire. In this post she shares her secret on how to fully maximise your potential',
+    path: 'https://scuola.netlify.app/registe',
     linkLabel: 'Learn More',
   },
   {
     image: null,
     title:
-      'Antibias receives honorable gift mention at Fast Company’s most Innovation by Design Awards',
+      'Dealing with anxiety and stress during a pandemic',
     description: null,
     path: '/',
     linkLabel: null,
   },
   {
     image: blogImage3,
-    title: 'Multiple task wireframing with team management perform better',
+    title: 'Staying up to date with your fellow teachers',
     description: null,
-    path: '/',
+    path: 'https://scuola.netlify.app/register',
     linkLabel: null,
   },
   {
     image: blogImage2,
-    title: 'Multiple art board prototype with Figma',
+    title: 'Multiple art sketch board prototype with Blender',
     description:
-      'Beyond launched antibias, a Chrome extension that replaces LinkedIn profile photos',
-    path: '/',
+      'Making the best use of Blender 3D in creating quick and easy to use prototypes',
+    path: 'https://scuola.netlify.app/register',
     linkLabel: 'Learn More',
   },
   {
     image: blogImage4,
     title:
-      'Team presentation with latest user interface & experience reach more',
+      'Team presentation with latest user interface',
     description: null,
-    path: '/',
+    path: 'https://scuola.netlify.app/registe',
     linkLabel: null,
   },
 ];

@@ -28,12 +28,13 @@ export default function IndexPage() {
         <Services />
         {/* <Jackpot /> */}
         {/* <CallToAction /> */}
-        <Featured />
+        {/* <Featured /> */}
         {/* <Pricing /> */}
         {/* <Testimonials /> */}
         <Blogs />
         <WorkFlow/>
-        <TeamSection/>
+        <br/>
+        {/* <TeamSection/> */}
         <FAQ />
         {/* <Subscribe /> */}
       </Layout>

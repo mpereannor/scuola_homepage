@@ -15,21 +15,21 @@ const SERVICES_DATA = [
     text:
       'Get in depth progress and analysis of each member of in school.',
     heading: 'Detailed Statistics',
-    path: '#',
+    path: 'https://scuola.netlify.app/registe',
   },
   {
     image: serviceImage2,
     text:
       'Get list of all reports and feedback from students and tutors.',
     heading: 'Reports and Feedback',
-    path: '#',
+    path: 'https://scuola.netlify.app/register',
   },
   {
     image: serviceImage5,
     text:
       'Get real time updates from students and tutors about an issue or request.',
     heading: 'Updates',
-    path: '#',
+    path: 'https://scuola.netlify.app/registe',
   },
 //   {
 //     image: serviceImage4,
@@ -50,7 +50,7 @@ const SERVICES_DATA = [
     text:
       'Contact Admin with any problem.',
     heading: 'Admin support',
-    path: '#',
+    path: 'https://scuola.netlify.app/registe',
   },
 ];
 const Services = () => {
